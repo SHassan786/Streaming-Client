@@ -1,0 +1,26 @@
+{
+  "name": "livekit-client",
+  "version": "1.12.1",
+  "description": "JavaScript/TypeScript client SDK for LiveKit",
+  "main": "./dist/livekit-client.umd.js",
+  "repository": "git@github.com:livekit/client-sdk-js.git",
+  "author": "Shehryar Hassan",
+  "license": "Apache-2.0",
+  "scripts": {
+    "sample": "vite source -c vite.config.js"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "livekit-client": "^1.12.2",
+    "recordrtc": "^5.6.2",
+  },
+  "devDependencies": {
+    "@babel/core": "7.22.1",
+    "@rollup/plugin-babel": "6.0.3",
+    "@types/file-saver": "^2.0.5",
+    "@types/recordrtc": "^5.6.11",
+    "jsdom": "^22.1.0",
+    "rollup-plugin-re": "1.0.7",
+    "vite": "4.3.9"
+  }
+}
